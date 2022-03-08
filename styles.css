@@ -2,18 +2,27 @@ body {
   background: lightgrey;
   margin: 0
 }
+nav{
+  background-color: beige;
+  text-align: center;
+}
+p.lb1{
+  display: block;
+  font-family: 'Great Vibes', cursive;
+  font-size: 30px;
+  margin: 5px;
+}
 #nme_villa {
   font-family: 'Great Vibes', cursive;
   font-size: 50px;
   color: grey;
-  border: solid 2px grey;
+  border-top: solid 2px grey;
+  border-bottom: solid 2px grey;
   background-color: beige;
   padding: 5px 10px 0 10px;
   text-align: center;
 }
-p {
-  font-family: Times, "Times New Roman", Georgia, serif;
-}
+
 div.pic_villa {
   width: 100%;
   margin: 0;
