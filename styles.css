@@ -2,18 +2,16 @@ body {
   background: lightgrey;
   margin: 0
 }
-div.nav_home{
+nav.nav_home{
   background-color: beige;
   border-bottom: solid 2px grey;
 }
-table.nav_t{
-  border-collapse: collapse;
-  width: 100%;
-}
 td {
-  border: 1px solid #dddddd;
+  border-right: 1px grey solid;
   text-align: center;
   padding: 8px;
+  width: 250px;
+ 
 }
 div.txt_welc{
   display: block;
