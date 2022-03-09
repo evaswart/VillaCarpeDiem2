@@ -2,16 +2,30 @@ body {
   background: lightgrey;
   margin: 0
 }
-nav{
+div.nav_home{
   background-color: beige;
-  text-align: center;
+  border-bottom: solid 2px grey;
 }
+table.nav_t{
+  border-collapse: collapse;
+  width: 100%;
+}
+td {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+}
+div.txt_welc{
+  display: block;
+  font-family: 'Times New Roman';
+  font-size: 16px;
+  margin-left: 5px;
+  padding-left: 10px;}
 p.lb1{
   display: block;
   font-family: 'Great Vibes', cursive;
   font-size: 30px;
-  margin: 5px;
-}
+  }
 #nme_villa {
   font-family: 'Great Vibes', cursive;
   font-size: 50px;
@@ -25,6 +39,6 @@ p.lb1{
 
 div.pic_villa {
   width: 100%;
-  margin: 0;
+  margin: 0 auto 0 auto;
   border: solid grey;
 }
