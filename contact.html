@@ -3,18 +3,26 @@
     <meta charset="UTF-8">
     <!--<script src="script.js"></script>-->
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
   </head>
   <body>
     <header>
-    <nav>
-    <a href="/index.html">Home</a> |
-    <a href="/facilities.html">Ausstattung</a> 
+    <nav class="nav_home">
+      <table>
+        <tr class="nav_t">
+          <td><a href="/index.html">Home</a></td>
+          <td><a href="/facilities.html">Ausstattung</a></td>
+          <td class="active"><a href="/contact.html">Kontakt</a></td>
+       </tr>
+     </table>
     </nav>
-
+    <h1 id="nme_villa">Villa Carpe Diem</h1>
     </header>
     <main>
       
-      <h1>Kontaktformular</h1>
+      <h2>Kontaktformular</h2>
 
       <form action="/kontakt.php">
         <label for="fname">Vorname:</label>
@@ -28,7 +36,7 @@
 
       <p>Mit dem Klick auf "Senden" erklären Sie sich dazu bereit, dass wir Ihre Daten für eine Kontaktaufnahme benutzen dürfen. Die Daten werden in unserer Datenbank gespeichert und nicht ohne Ihr Einverständnis an Dritte weitergegeben.</p> 
       
-      <h1>Kontakt</h1>
+      <h2>Kontakt</h2>
 
       <p>0000/00000000 <br>villa-carpe-diem@gnone.com<br>Am Existiert-Nicht See 000<br>00000 Ausgedachtern<br></p>
     </main>

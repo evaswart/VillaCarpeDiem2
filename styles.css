@@ -27,6 +27,11 @@ p.lb1{
   font-family: 'Great Vibes', cursive;
   font-size: 30px;
   }
+h2{
+    display: block;
+    font-family: 'Great Vibes', cursive;
+    font-size: 30px;
+    }
 #nme_villa {
   font-family: 'Great Vibes', cursive;
   font-size: 50px;
@@ -40,6 +45,7 @@ p.lb1{
 
 div.pic_villa {
   width: 100%;
-  margin: 0 auto 0 auto;
+  margin-left: 0;
+  margin-right: 0;
   border: solid grey;
 }
