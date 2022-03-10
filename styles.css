@@ -78,3 +78,8 @@ form{
 .button_send{
   margin-left: 197px;
 }
+li{
+  display: inline;
+  margin-left: 10px;
+  margin-right: 10px;
+}
