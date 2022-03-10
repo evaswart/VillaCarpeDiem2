@@ -49,3 +49,25 @@ div.pic_villa {
   margin-right: 0;
   border: solid grey;
 }
+.pic_whirl, .pic_kino, .pic_spa{
+
+  position: absolute;
+  margin-left: 400px;
+  
+}
+#whirlpool{
+  height: 200px;
+  margin-top: 0 px;
+  border: solid grey 2px;
+}
+
+#kino{
+  height: 200px;
+  margin-top: 220px;
+  border: solid grey 2px;
+}
+#spa{
+  height: 140px;
+  margin-top: 440px;
+  border: solid grey 2px;
+}
